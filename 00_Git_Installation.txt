@@ -1,3 +1,8 @@
+## Installing Git
 sudo apt install git-all
-
-
+echo "# Tutorials" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/apytgb/Tutorials.git
+git push -u origin master
